@@ -72,40 +72,40 @@ svg.radial-progress {
 
 svg.radial-progress circle {
 	fill: transparent;
-	stroke: #fff;
-	stroke: red;
+	stroke: #FFFFFF;
 }
 
 svg.radial-progress circle.bar-static {
-	stroke: #F7F7F7 !important;
+	stroke: #E4E3E7;
+}
+svg.radial-progress circle.bar-static,
+svg.radial-progress circle.bar--animated {
 	stroke-width: 5px;
 }
-
 svg.radial-progress circle.bar--animated {
 	stroke-dasharray: 219.91148575129;
 	stroke-dashoffset: 219.91148575129;
-	stroke-width: 5px;
 	stroke-linecap: round;
 }
 
 svg.radial-progress circle.bar--animated.count-1 {
-	stroke: #F6357E !important;
+	stroke: #F6357E;
 }
 
 svg.radial-progress circle.bar--animated.count-2 {
-	stroke: #B122E5 !important;
+	stroke: #B122E5;
 }
 
 svg.radial-progress circle.bar--animated.count-3 {
-	stroke: #1270E3 !important;
+	stroke: #1270E3;
 }
 
 svg.radial-progress circle.bar--animated.count-4 {
-	stroke: #2CBFC7 !important;
+	stroke: #2CBFC7;
 }
 
 svg.radial-progress circle.bar--animated.count-5 {
-	stroke: #FF8359 !important;
+	stroke: #FF8359;
 }
 
 svg.radial-progress text {
